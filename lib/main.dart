@@ -17,10 +17,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        scaffoldBackgroundColor: Color(0XFF090302),
       ),
       home: //PokerTable(),
-      TestBedWidget(titleText: "Gameroom1", totalNumber: 20, dynamicText:"testing"),
-      //GameRoomWidget(titleText: "ALL Games", totalNumber: 10, dynamicText: "testing")
+      //TestBedWidget(titleText: "Gameroom1", totalNumber: 20, dynamicText:"testing"),
+      GameRoomWidget(titleText: "ALL Games", totalNumber: 10, dynamicText: "testing")
     );
   }
 }
